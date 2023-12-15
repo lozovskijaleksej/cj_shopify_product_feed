@@ -10,8 +10,8 @@ logToFile(" > api initializing");
 $curl = curl_init();
 $client = new Client();
 
-$store_name = 'littleliffner';
-$access_token = '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';
+$store_name = '';  // store domain here
+$access_token = '';  // store access token here
 
 $since_id = 0;
 
